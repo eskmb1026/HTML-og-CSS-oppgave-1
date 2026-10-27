@@ -1,0 +1,105 @@
+/* Grunnstil for hele siden. */
+body {
+    margin: 0;
+    background-color: #f6f4ec;
+    color: #253e33;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+header {
+    padding: 24px 6%;
+    border-bottom: 1px solid #d4d9ce;
+}
+
+/* En ID brukes bare én gang i HTML-filen. */
+#logo {
+    color: #253e33;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+#logo span {
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 56px auto;
+    padding: 0 24px;
+}
+
+#innledning, .nummer {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 16px 0 24px;
+    font-family: Georgia, serif;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+#ingress {
+    max-width: 560px;
+    margin-bottom: 32px;
+    font-size: 19px;
+}
+
+#hovedbilde {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+#bildetekst {
+    margin-top: 10px;
+    color: #566452;
+    font-size: 13px;
+}
+
+/* En class kan brukes på flere elementer. */
+.turtekst {
+    margin-top: 36px;
+    padding-top: 24px;
+    border-top: 1px solid #cbd2c4;
+}
+
+.turtekst p, .turtekst ul {
+    max-width: 640px;
+}
+
+h2 {
+    margin: 8px 0 16px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.25;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+footer {
+    padding: 28px 24px;
+    background-color: #253e33;
+    color: #f6f4ec;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer p {
+    margin: 4px 0;
+}
+
+
